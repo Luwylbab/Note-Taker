@@ -1,4 +1,5 @@
 const express = require('express');
+const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 // const api = require('./routes/index.js');
 const { readAndAppend, readFromFile } = require('./helpers/fsUtils');
@@ -20,6 +21,7 @@ app.get('/api/notes', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
   const newNote = req.body
+  newNote.id = uuidv4()
   readAndAppend(newNote, './db/db.json')
   res.json(newNote)
 });
