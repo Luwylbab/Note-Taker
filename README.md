@@ -18,14 +18,14 @@ This repo contains the content for week 11
 
 ## Usage
 
-When a user sees the homepage, they can click "Get Started" to be taken to the main note page, where they can see all of the titles and descriptions of the notes saved within the database on the left side of the page. In the center of the page, there is a blank document with placeholder text, prompting a user to type a note title and description in the textboxes. Once the user is happy with their note, they can click "Save Note" on the right side of the page and it will be added to the database and display at the bottom of the list on the page.
+When a user sees the homepage, they can click "Get Started" to be taken to the main note page, where they can see all of the titles and descriptions of the notes saved within the database on the left side of the page. In the center of the page, there is a blank document with placeholder text, prompting a user to type a note title and description in the textboxes. Once the user is happy with their note, they can click "Save Note" on the right side of the page and it will be added to the database and display at the bottom of the list on the page. If the user wishes to delete a note from the  list, they simply need to click on the red trash can to the right of the designated note.
 
 ## Credits
 
-Xpert Learning Assistant: 
+Xpert Learning Assistant with help doing bonus task: 
 https://bootcampspot.instructure.com/courses/4612/external_tools/313
 
-Stack Overflow:
+Stack Overflow for general questions:
 https://stackoverflow.com/
 
 Tutoring assistance from Andrew Hardemon
